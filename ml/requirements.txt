@@ -1,0 +1,8 @@
+# ML Dependencies — Image Classifier for Fruits
+# Pin versions for reproducibility (matches environment snapshot)
+
+tensorflow==2.20.0
+numpy==2.2.6
+matplotlib==3.10.5
+scikit-learn==1.7.1
+Pillow==11.3.0

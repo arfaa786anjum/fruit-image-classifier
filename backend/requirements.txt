@@ -1,0 +1,9 @@
+# Backend Dependencies — Image Classifier for Fruits
+# Pin versions for reproducibility (matches environment snapshot)
+
+fastapi==0.117.1
+uvicorn==0.36.0
+tensorflow==2.20.0
+numpy==2.2.6
+Pillow==11.3.0
+python-multipart>=0.0.9

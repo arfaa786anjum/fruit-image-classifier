@@ -1,0 +1,22 @@
+Test Accuracy: 1.0000
+Test Loss: 0.0000
+
+Classification Report:
+              precision    recall  f1-score   support
+
+       apple       1.00      1.00      1.00        15
+      banana       1.00      1.00      1.00        15
+      orange       1.00      1.00      1.00        15
+
+    accuracy                           1.00        45
+   macro avg       1.00      1.00      1.00        45
+weighted avg       1.00      1.00      1.00        45
+
+Confusion Matrix:
+[[15  0  0]
+ [ 0 15  0]
+ [ 0  0 15]]
+
+Limitations:
+- The model was trained on a very small mock dataset (for prototyping) and may not generalize to real images.
+- Overfitting is possible due to the limited number of diverse samples in the dataset.
